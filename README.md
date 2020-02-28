@@ -42,11 +42,11 @@ typecho_relationships<br>
 
 ### 复制文件
 
-将你网站根目录的/usr文件夹复制到脚本根目录，目的是为了处理上传的文章附件。/usr下只需要uploads文件夹就够了。
+将你Typecho网站根目录的/usr文件夹复制到脚本根目录，目的是为了处理上传的文章附件。/usr下只需要uploads文件夹就够了。
 
 ### 资源文件夹支持
 
-请设置配置文件`_config.yml`，将`post_asset_folder`的值设置为`true`
+请设置Hexo配置文件`_config.yml`，将`post_asset_folder`的值设置为`true`
 
 ### 构建配置文件
 
@@ -63,9 +63,9 @@ php -f "./post_info.php"
 
 程序不会自动创建文件夹，所以需要手动创建
 
-在脚本根目录创建`posts`,`draft`,`hidden`文件夹。
+在脚本根目录创建`posts`,`draft`,`hidden`,`waiting`文件夹。
 
-其中，posts储存普通文章，draft储存草稿文章，hidden储存隐藏的文章。
+其中，posts储存普通文章，draft储存草稿文章，waiting储存待审核文章，hidden储存隐藏的文章。
 
 
 
